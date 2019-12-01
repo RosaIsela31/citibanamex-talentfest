@@ -48,7 +48,7 @@ const Landing = () => {
             <div className='landing-inner'>
               <h1 className='x-large'>Citibanamex</h1>
               <p className='lead'>
-                Bienvenido a tu banco. Crea una cuenta o inicia sesión
+                Bienvenido a tu banco. Crea una cuenta o inicia sesión!
               </p>
               <div className='buttons'>
                 <Link to='/register' className='btn btn-primary'>
