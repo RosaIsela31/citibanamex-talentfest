@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://RosaIsela:Ol1v3ratomico@citibanamex-talentfest-tcjsr.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken" 
+}
