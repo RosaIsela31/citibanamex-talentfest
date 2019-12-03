@@ -2,6 +2,12 @@ import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import Pagare from '../../citicomponents/principalPage/Pagare';
+import Tarjet from '../../citicomponents/principalPage/Tarjet';
+import Footer from '../../citicomponents/principalPage/Footer';
+import Iphone from '../../citicomponents/principalPage/Iphone';
+import WithoutNetKey from '../../citicomponents/principalPage/WithoutNetkey';
+
 
 const Landing = ({ isAuthenticated }) => {
   if (isAuthenticated) {
@@ -9,23 +15,34 @@ const Landing = ({ isAuthenticated }) => {
   }
 
   return (
-    <section className='landing'>
-      <div className='dark-overlay'>
-        <div className='landing-inner'>
-          <h1 className='x-large'>Citibanamex</h1>
-          <p className='lead'>
-            Bienvenido a tu banco, ¡Queremos ayudarte!
-          </p>
-          <div className='buttons'>
-            <Link to='/register' className='btn btn-primary'>
-              Regístrate
-            </Link>
-            <Link to='/login' className='btn btn-light'>
-              Inicia Sesión
-            </Link>
+    <section className='container-general-first-page'>
+      <section className='landing'>
+        <div className='dark-overlay'>
+          <div className='landing-inner'><br/><br/><br/><br/><br/><br/>
+            <p className='lead'>
+              Bienvenido a tu banco, ¡Queremos ayudarte!
+            </p>
+            <div className='buttons'>
+              <Link to='/register' className='btn btn-primary'>
+                Regístrate
+              </Link>
+              <Link to='/login' className='btn btn-light'>
+                Inicia Sesión
+              </Link>
+            </div>
           </div>
+            <div className='sidebar'>
+              <div className='children-sidebar'>Obtén tu tarjeta</div>
+              <div className='children-sidebar'>Realiza tu pago</div>
+              <div className='children-sidebar'>Contáctanos</div>
+            </div>
         </div>
-      </div>
+      </section>
+      <Pagare />
+      <Iphone />
+      <Tarjet />
+      <WithoutNetKey />
+      <Footer />
     </section>
   );
 };
