@@ -4,9 +4,7 @@ import './style.css';
 const mock = () => {
   return (
     <div className='mock'>
-      Hola 
-      Hola
-      Hola
+     
     </div>
   )
 }

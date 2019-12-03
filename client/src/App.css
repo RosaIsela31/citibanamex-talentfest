@@ -1,7 +1,7 @@
 /* Global Styles */
 :root {
-  --primary-color: #17a2b8;
-  --dark-color: #343a40;
+  --primary-color: #3ABAED;
+  --dark-color: #002A54;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
   --success-color: #28a745;
@@ -37,10 +37,10 @@ img {
 /* Utilities */
 .container {
   max-width: 1100px;
-  margin: auto;
+  /* margin: auto; */
   overflow: hidden;
   padding: 0 2rem;
-  margin-top: 6rem;
+  margin-top: 1rem;
   margin-bottom: 3rem;
 }
 
@@ -232,6 +232,10 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
 }
 
 /* Forms */
@@ -300,11 +304,12 @@ button {
 
 /* Navbar */
 .navbar {
+  height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.7rem 2rem;
-  position: fixed;
+  position: relative;
   z-index: 1;
   width: 100%;
   top: 0;
@@ -491,7 +496,7 @@ button {
 /* Mobile Styles */
 @media (max-width: 700px) {
   .container {
-    margin-top: 8rem;
+    margin-top: 2rem;
   }
 
   .hide-sm {
@@ -575,3 +580,36 @@ button {
     padding: 0.3rem 0.4rem;
   }
 }
+
+.sidebar{
+  height: 15rem;
+  width: 10rem;
+}
+
+.children-sidebar{
+  background-color: #002A54;
+  color: white;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding-top: 1rem;
+  border-bottom: 1px solid white;
+}
+
+.frag-dash{
+  margin: auto;
+  display: flex;
+}
+
+.container-dash-sidebar{
+  display: flex;
+  width: 55rem;
+}
+
+.graphic{
+  height: 1%;
+  margin-top: 7rem;
+}
+
