@@ -1,0 +1,141 @@
+.principal-page{
+  background-image: url(../../img/work.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+.principal-tarjet{
+  background-image: url(../../img/travel.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+.your-money{
+  height: 50rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-top: 5rem;
+}
+
+.bonus{
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 50%;
+  color: #CCCCCC;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items:center; 
+}
+
+.bonus-tarjet{
+  height: 30rem;
+  background-color: rgba(200, 200, 200, 0.5);
+  width: 100%;
+  color: #343434;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items:center; 
+}
+
+.your-money-tarjet{
+  height: 30rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.icon{
+  height: 5rem;
+  width: 5rem;
+  background-color: #002A54;
+  border-radius: 100%;
+  color: white;
+  margin: 2rem;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.weare{
+  display:flex;
+  flex-direction:row;
+  align-content: center;
+  align-items:center; 
+  margin-left: 3rem;
+  margin-right: 1rem;
+}
+
+.principal-iphone{
+  background-image: url(../../img/iphone11.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-end;
+}
+
+.your-money-iphone{
+  height: 30rem;
+  width: 28rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-top: 4rem;
+  display: flex;
+}
+
+.bonus-iphone{
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 55%;
+  color: #CCCCCC;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items:center; 
+}
+
+.principal-netkey{
+  background-image: url(../../img/working.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+.your-money-netkey{
+  height: 50rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-top: 5rem;
+}
+
+.bonus-netkey{
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 50%;
+  color: #CCCCCC;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items:center; 
+}
+
+.black-nav{
+  background-color: black;
+  color: white;
+  height: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div-nav{
+  margin-right: 3rem;
+  margin-top: 1rem;
+}
+
+.date{
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
