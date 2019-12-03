@@ -149,7 +149,8 @@
   color: #002A54;
   font-size: 1.2rem;
   border-bottom: 1px solid black;
-  height: 2rem;
+  border-top: 1px solid black;
+  height: 3.5rem;
 }
 
 .div-hover{
@@ -160,4 +161,51 @@
   background-color: #056DAE;
   color: white;
   cursor: pointer;   
+}
+
+.sidebar-container{
+  background-color: #056DAE;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 30rem;
+  height: 38rem;
+  display: flex;  
+  padding-top: 3rem;
+  font-size: 1.2rem;
+}
+
+.options{
+  margin: 1rem;
+}
+
+.container-forgraph{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+
+}
+
+.balances-graph{
+  height: 10rem;
+  width: 10rem;
+  font-size: 2rem;
+  margin-right: 3rem;
+  color:#002A54;
+}
+
+.table-container{
+  border-bottom: 1px black solid;
+}
+
+.div-table{
+  border-top: 2px solid #3ABAED;
+  width: 100%;
+}
+
+.width-cel{
+  width: 5rem;
 }
