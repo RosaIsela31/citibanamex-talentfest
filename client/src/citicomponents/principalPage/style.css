@@ -139,3 +139,25 @@
   margin-top: 1rem;
   margin-left: 3rem;
 }
+
+.whithe-nav{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  color: #002A54;
+  font-size: 1.2rem;
+  border-bottom: 1px solid black;
+  height: 2rem;
+}
+
+.div-hover{
+  height: 2rem;
+}
+
+.div-hover:hover{
+  background-color: #056DAE;
+  color: white;
+  cursor: pointer;   
+}
