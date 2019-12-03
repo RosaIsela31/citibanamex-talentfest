@@ -1,13 +1,15 @@
 import React from 'react'
-import graphic from '../../img/graphic.png';
+// import graphic from '../../img/graphic.png';
+import PayGraphic from './payGraphic.js';
 
 
 const Graphic = () => {
   return (
     <div>
       <div className='container-forgraph'>
-        <div className='balances-graph'><b>$3,550.00</b></div>
-          <img alt='graph' src={graphic} className='graphic'/>
+        <PayGraphic/>
+        {/* <div className='balances-graph'><b>$3,550.00</b></div>
+          <img alt='graph' src={graphic} className='graphic'/> */}
       </div>
       <div className='div-table'> <br/>
         Últimos movimientos
