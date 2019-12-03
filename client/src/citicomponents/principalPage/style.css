@@ -209,3 +209,28 @@
 .width-cel{
   width: 5rem;
 }
+
+.info{
+  font-family: "Arial";
+  width:300px;
+}
+.texto-izq{
+  text-align: center;
+  margin-left: 2rem;
+  margin-top: 45%;
+}
+h1.saldo{
+  font-size: 3rem;
+  color:#002A54;
+}
+p.saldo-2{
+  color:#002A54;
+}
+.graficas{
+  display: flex;
+  justify-content: space-between;
+  width:80%;
+}
+.info-grafica{
+  width: 100px;
+}

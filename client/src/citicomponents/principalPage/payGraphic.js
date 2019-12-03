@@ -5,13 +5,13 @@ import './style.css';
 
 const data = {
 	labels: [
-		'Ahorro',
-		'Inversión',
-		'Gastos'
+		'Depósitos',
+		'Retiros'
+		
 	],
 	datasets: [
                 {
-		data: [60, 10, 30],
+		data: [63, 37],
 		backgroundColor: [
 		'#FF6384',
 		'#36A2EB',
@@ -32,10 +32,15 @@ export default createClass({
     return (
       <div className="graficas">
          <div className="info">
-        <h1>Tus finanzas</h1>
-        <p>Tus gastos representan el 30%</p>
-        <p>Tus ahorros representan el 60%</p>
-        <p>Tus inversiones representan el 10%</p>
+		<div className="texto-izq">	 
+        <h1 className="saldo">$1,780.00</h1>
+		<p className="saldo-2">Saldo actual</p>
+		<br/>
+		<h2>63%</h2>
+		<p className="saldo-2">Depósitos</p>
+		<h2>37%</h2>
+		<p className="saldo-2">Retiros</p>
+		</div>	 
         </div> 
 
         <Pie data={data} />
