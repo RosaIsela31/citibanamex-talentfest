@@ -600,4 +600,16 @@ button {
 
 .frag-dash{
   margin: auto;
+  display: flex;
 }
+
+.container-dash-sidebar{
+  display: flex;
+  width: 55rem;
+}
+
+.graphic{
+  height: 1%;
+  margin-top: 7rem;
+}
+
