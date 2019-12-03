@@ -24,7 +24,7 @@ const Landing = ({ isAuthenticated }) => {
             </p>
             <div className='buttons'>
               <Link to='/register' className='btn btn-primary'>
-                Regístrate
+                Crea tu cuenta
               </Link>
               <Link to='/login' className='btn btn-light'>
                 Inicia Sesión
