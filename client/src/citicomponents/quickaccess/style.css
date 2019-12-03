@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .accesos{
     text-align:center;
     font-family:"Arial";
@@ -44,4 +49,16 @@ p{
 
 .fila1{
 display:inline-flex;
+}
+
+
+
+
+.info{
+    font-family: "Arial";
+    width:200px;
+}
+.graficas{
+    display: flex;
+    width:80%;
 }

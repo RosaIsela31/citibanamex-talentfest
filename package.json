@@ -14,12 +14,15 @@
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "chart.js": "^2.9.3",
     "config": "^3.2.4",
+    "create-react-class": "^15.6.3",
     "express": "^4.17.1",
     "express-validator": "^6.3.0",
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.7.13",
+    "react-chartjs-2": "^2.8.0",
     "request": "^2.88.0"
   },
   "devDependencies": {

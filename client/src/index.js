@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import App from './App';
-import QuickAccess from './citicomponents/quickaccess/QuickAccess';
+import Grafica from './citicomponents/quickaccess/grafica.js';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<QuickAccess />, document.getElementById('root'));
+ReactDOM.render(<Grafica />, document.getElementById('root'));
 
 
