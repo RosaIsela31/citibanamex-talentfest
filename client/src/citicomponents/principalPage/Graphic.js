@@ -6,21 +6,21 @@ const Graphic = () => {
   return (
     <div>
       <div className='container-forgraph'>
-        <div className='balances-graph'>$3,550.00</div>
+        <div className='balances-graph'><b>$3,550.00</b></div>
           <img alt='graph' src={graphic} className='graphic'/>
       </div>
-      <div>
+      <div className='div-table'> <br/>
         Últimos movimientos
         <table class="table-container">
           <tr>
-            <th>Celda 1</th>
-            <th>Celda 2</th>
-            <th>Celda 3</th>
+            <th className='width-cel'><pre>Concepto                </pre> </th>
+            <th className='width-cel'><pre>                   Fecha</pre></th>
+            <th className='width-cel'><pre>                    Monto</pre></th>
           </tr>
           <tr>
-            <td>Celda 4</td>
-            <td>Celda 5</td>
-            <td>Celda 6</td>
+            <td className='width-cel'><pre>Retiro                   </pre></td>
+            <td className='width-cel'><pre>                  3/12/2019</pre></td>
+            <td className='width-cel'><pre>                  $ 7,500</pre></td>
           </tr>
         </table>
       </div>

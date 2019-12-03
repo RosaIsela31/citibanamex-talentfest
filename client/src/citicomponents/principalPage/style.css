@@ -194,8 +194,18 @@
   width: 10rem;
   font-size: 2rem;
   margin-right: 3rem;
+  color:#002A54;
 }
 
 .table-container{
-  background-color: yellow;
+  border-bottom: 1px black solid;
+}
+
+.div-table{
+  border-top: 2px solid #3ABAED;
+  width: 100%;
+}
+
+.width-cel{
+  width: 5rem;
 }
