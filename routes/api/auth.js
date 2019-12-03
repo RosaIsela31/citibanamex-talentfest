@@ -27,7 +27,7 @@ router.get('/', auth, async (req, res) => {
 //access        Public
 router.post('/', 
 [
-  check('email', 'Por favor, ingresa un correo valido').isEmail(),
+  check('email', 'Por favor, ingresa un correo valido').isLength({min: 8}),
   check('password', 'La contraseña es requerida').exists()
 ],
  async (req, res) => {

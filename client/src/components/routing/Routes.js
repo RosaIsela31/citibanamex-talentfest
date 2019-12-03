@@ -14,6 +14,7 @@ import Profile from '../profile/Profile';
 // import Post from '../post/Post';
 import NotFound from '../layout/NotFound';
 import PrivateRoute from '../routing/PrivateRoute';
+import MockView from '../../citiviews/viewFirtPage';
 
 const Routes = () => {
   return (
@@ -25,6 +26,7 @@ const Routes = () => {
         {/* <Route exact path='/profiles' component={Profiles} /> */}
         <Route exact path='/profile/:id' component={Profile} />
         <PrivateRoute exact path='/dashboard' component={Dashboard} />
+        <Route exact path='/mockview' component={MockView} />
         {/* <PrivateRoute exact path='/create-profile' component={CreateProfile} /> */}
         {/* <PrivateRoute exact path='/edit-profile' component={EditProfile} /> */}
         {/* <PrivateRoute exact path='/add-experience' component={AddExperience} /> */}

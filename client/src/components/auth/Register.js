@@ -49,8 +49,8 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
         </div>
         <div className='form-group'>
           <input
-            type='email'
-            placeholder='Correo'
+            type='password'
+            placeholder='Número de usuario'
             name='email'
             value={email}
             onChange={e => onChange(e)}
