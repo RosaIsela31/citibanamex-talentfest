@@ -1,5 +1,5 @@
 import React from 'react'
-import graphic from '../../img/graphic.png';
+// import graphic from '../../img/graphic.png';
 import PayGraphic from './payGraphic.js';
 
 
