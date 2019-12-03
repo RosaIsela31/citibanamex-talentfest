@@ -613,3 +613,15 @@ button {
   margin-top: 7rem;
 }
 
+.container-investments{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.second-container-investments{
+  height: 40rem;
+  width: 65rem;
+  background-color: #28a745;
+}

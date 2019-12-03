@@ -15,6 +15,7 @@ import Profile from '../profile/Profile';
 import NotFound from '../layout/NotFound';
 import PrivateRoute from '../routing/PrivateRoute';
 import MockView from '../../citiviews/viewFirtPage';
+import Investments from '../../citicomponents/investments/Investments';
 
 const Routes = () => {
   return (
@@ -23,6 +24,7 @@ const Routes = () => {
       <Switch>
         <Route exact path='/register' component={Register} />
         <Route exact path='/login' component={Login} />
+        <Route exact path='/investments' component={Investments} />
         {/* <Route exact path='/profiles' component={Profiles} /> */}
         <Route exact path='/profile/:id' component={Profile} />
         <PrivateRoute exact path='/dashboard' component={Dashboard} />
