@@ -4,9 +4,16 @@
 }
 
 .section-consult{
+    display: flex;
+    justify-content: space-between;
     background: #666666;
     border: solid black 2px;
     color: white;
 
     max-width: 70%;
+}
+
+.table-section-consult{
+    background: black;
+    display: none;
 }

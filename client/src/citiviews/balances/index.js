@@ -1,4 +1,5 @@
 import React from 'react';
+import WhatToConsult from '../../citicomponents/whatToConsult/WhatToConsult'
 
 
 
@@ -7,11 +8,11 @@ class Balances extends React.Component{
     render(){
         return(
             <section>
-                <HeaderCiti/>
+                {/* <HeaderCiti/>
                 <HamburguerMenu/>
-                <QuickAccess/>
+                <QuickAccess/> */}
                 <WhatToConsult/>
-                <advertisements/>
+             {/*    <advertisements/> */}
             </section>
         )
     }
