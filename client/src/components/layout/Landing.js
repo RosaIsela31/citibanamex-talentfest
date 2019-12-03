@@ -44,10 +44,7 @@ const Landing = ({ isAuthenticated }) => {
       <Tarjet />
       <WithoutNetKey />
       <Footer />
-      <ChatBubble/>
-     {/*  <section className = "chat-bubble-content">
         <ChatBubble/>
-      </section> */}
     </section>
   );
 };
