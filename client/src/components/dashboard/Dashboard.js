@@ -7,6 +7,7 @@ import DashboardActions from './DashboardActions';
 // import Experience from './Experience';
 // import Education from './Education';
 import { getCurrentProfile, deleteAccount } from '../../actions/profile';
+import PersonalPage from '../../citicomponents/principalPage/PersonalPage';
 
 const Dashboard = ({
   getCurrentProfile,
@@ -21,32 +22,34 @@ const Dashboard = ({
   return loading && profile === null ? (
     <Spinner />
   ) : (
-    <Fragment>
-      <h1 className='large text-primary'>Página Principal</h1>
-      <p className='lead'>
-        <i className='fas fa-user' /> Hola {user && user.name}
-      </p>
-      {profile !== null ? (
-        <Fragment>
-          <DashboardActions />
-          {/* <Experience experience={profile.experience} />
-          <Education education={profile.education} /> */}
+    <div>
+      <PersonalPage /> <br/><br/><br/>
+      <Fragment className='frag-dash'>
+        <p className='lead'>
+          <i className='fas fa-user' /> Hola {user && user.name}
+        </p>
+        {profile !== null ? (
+          <Fragment>
+            <DashboardActions />
+            {/* <Experience experience={profile.experience} />
+            <Education education={profile.education} /> */}
 
-          <div className='my-2'>
-            <button className='btn btn-danger' onClick={() => deleteAccount()}>
-              <i className='fas fa-user-minus' /> Delete My Account
-            </button>
-          </div>
-        </Fragment>
-      ) : (
-        <Fragment>
-          {/* <p>You have not yet setup a profile, please add some info</p> */}
-          <Link to='/mockview' className='btn btn-primary my-1'>
-            Create Profile
-          </Link>
-        </Fragment>
-      )}
-    </Fragment>
+            <div className='my-2'>
+              <button className='btn btn-danger' onClick={() => deleteAccount()}>
+                <i className='fas fa-user-minus' /> Delete My Account
+              </button>
+            </div>
+          </Fragment>
+        ) : (
+          <Fragment>
+            {/* <p>You have not yet setup a profile, please add some info</p> */}
+            <Link to='/mockview' className='btn btn-primary my-1'>
+              Create Profile
+            </Link>
+          </Fragment>
+        )}
+      </Fragment>
+    </div>
   );
 };
 

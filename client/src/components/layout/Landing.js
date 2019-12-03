@@ -7,6 +7,7 @@ import Tarjet from '../../citicomponents/principalPage/Tarjet';
 import Footer from '../../citicomponents/principalPage/Footer';
 import Iphone from '../../citicomponents/principalPage/Iphone';
 import WithoutNetKey from '../../citicomponents/principalPage/WithoutNetkey';
+import ChatBubble from '../../citicomponents/ChatBubble/index';
 
 
 const Landing = ({ isAuthenticated }) => {
@@ -43,6 +44,10 @@ const Landing = ({ isAuthenticated }) => {
       <Tarjet />
       <WithoutNetKey />
       <Footer />
+      <ChatBubble/>
+     {/*  <section className = "chat-bubble-content">
+        <ChatBubble/>
+      </section> */}
     </section>
   );
 };

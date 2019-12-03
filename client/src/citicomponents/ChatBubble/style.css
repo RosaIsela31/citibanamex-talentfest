@@ -1,0 +1,17 @@
+.chat-bubble{
+    background: white;
+    border-radius: 50px;
+    border: solid black 2px;
+    width: 65px;
+    position: fixed;
+    z-index: 100;
+}
+.chat-bubble-content{
+    background: blue;
+    width: 70%;
+    height: 70%;
+}
+
+.chatbot-content{
+    display:block ;
+}
