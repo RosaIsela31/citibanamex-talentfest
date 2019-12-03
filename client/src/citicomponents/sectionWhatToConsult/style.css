@@ -1,4 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .section-consult{
-    background: #104B84;
-    
+    background: #666666;
+    border: solid black 2px;
+    color: white;
+
+    max-width: 70%;
 }

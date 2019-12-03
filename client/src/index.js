@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+/* import App from './App'; */
+import WhatToConsult from './citicomponents/whatToConsult/WhatToConsult';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<WhatToConsult/>, document.getElementById('root'));
 
 
