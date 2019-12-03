@@ -623,5 +623,24 @@ button {
 .second-container-investments{
   height: 40rem;
   width: 65rem;
-  background-color: #28a745;
+}
+
+.barras{
+  width: 25rem;
+}
+
+.container-barrasanddiv{
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.money-actual{
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
