@@ -10,6 +10,7 @@ import Graphic from '../../citicomponents/principalPage/Graphic';
 // import Education from './Education';
 import { getCurrentProfile, deleteAccount } from '../../actions/profile';
 import PersonalPage from '../../citicomponents/principalPage/PersonalPage';
+import ChatBubble from '../../citicomponents/ChatBubble/index';
 
 const Dashboard = ({
   getCurrentProfile,
@@ -56,6 +57,7 @@ const Dashboard = ({
             </Fragment>
           )}
         </Fragment>
+        <ChatBubble/>
       </div>
     </div>
   );
